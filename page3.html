@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML Blocks [page 2]</title>
+    <title>HTML Blocks [page 3]</title>
 
     <!-- styles for blocks -->
     <link rel="stylesheet" href="styles/styles.css">
@@ -14,20 +14,28 @@
 <div class="wrapper">
 
     <!--    HTML block hero Contacts-->
+    <!--    Place your background image here-->
     <div class="html-block-contact-hero" style="background-image: url(img/AdobeStock_354071969.jpeg);">
         <div class="html-block-contact-hero__container">
+            <!--            Heading of the page-->
             <h2 class="html-block-contact-hero__heading heading">Contact us right away. We are located over there</h2>
         </div>
     </div>
-
+    <!--Contact blocks-->
     <div class="html-block-contact">
         <div class="html-block-contact__container">
+            <!--            Holder-->
             <div class="html-block-contact__holder">
+                <!--                Item with Form goes here-->
                 <div class="html-block-contact__item contacts-form">
+                    <!--                    Heading-->
                     <h2 class="html-block-contact__heading heading">Get your Ride Restored <br> With our assistance</h2>
+                    <!--                    Form tag start-->
                     <form class="contact-form">
+                        <!--                        Form text-->
                         <p class="font2">Send some info to us</p>
                         <p class="font2">We will reply as quickly as possible</p>
+                        <!--                        Groups with inputs-->
                         <div class="group">
                             <label class="FullName">Full Name<span class="important">*</span></label>
                             <input type="text" name="FullName" id="FullName" required>
@@ -44,18 +52,26 @@
                             <label class="Year">Vehicle Year<span class="important">*</span></label>
                             <input type="number" name="Year" id="Year" required>
                         </div>
+                        <!--                        Submit holder-->
                         <div class="group">
-                            <input type="submit" value="Submit Form" >
+                            <!--                            Submit btn-->
+                            <input type="submit" value="Submit Form">
                         </div>
                     </form>
                 </div>
+                <!--                Items with locations goes here-->
                 <div class="html-block-contact__item contacts-location">
                     <div class="html-block-contact__cell text-center">
+                        <!--                        Subheading-->
                         <h3 class="html-block-contact__subheading">Subheading</h3>
+                        <!--                        Bold text-->
                         <p class="html-block-contact__text"><strong>Bold text</strong></p>
                         <p class="html-block-contact__text">Our contacts:</p>
+                        <!--                        Phone number-->
                         <a href="tel:1234" class="html-block-contact__text">555-555-5566 </a>
+                        <!--                        Email-->
                         <a href="mail@mail.com" class="html-block-contact__text">mail@mail.com</a>
+                        <!--                        Custom Iframe with a map-->
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1739.5452272892792!2d-21.949462083728246!3d64.15130578359734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d60b2c78cb1cdf%3A0x64afd238dae5f9a!2sIcelandair%20Hotel%20Reykjavik%20Marina!5e0!3m2!1suk!2sua!4v1658405569506!5m2!1suk!2sua"
                                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
