@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Blocks [page 1]</title>
+
+    <!-- styles for blocks -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <!--    HTML block hero-->
+
+    <!--    Put your image for background here into 'html-blocks-hero'. If you want to avoid border-bottom - remove "bordered" class -->
+    <div class="html-blocks-hero bordered" style="background-image: url(img/AdobeStock_351348421.jpeg);">
+        <div class="html-blocks-hero__container">
+            <!--            Pre heading text goes here-->
+            <p class="html-blocks-hero__text">
+                Small text before heading
+            </p>
+            <!--            Heading text goes here-->
+            <h1 class="html-blocks-hero__heading">
+                Your heading text <br>
+                goes here
+            </h1>
+            <!--            Buttons. Put your URLs into href="#!" and text into <span></span>-->
+            <a href="#!" class="html-blocks-hero__btn btn btn_active"><span>Book today</span></a>
+            <a href="#!" class="html-blocks-hero__btn btn"><span>Learn more</span></a>
+        </div>
+    </div>
+
+    <!--    Chessboard HTML block-->
+    <div class="html-blocks-chessboard">
+        <div class="html-blocks-chessboard__container">
+            <!--            Put your heading text -->
+            <h2 class="html-blocks-chessboard__heading">Your heading text before chessboard
+                <br> blocks can be put here
+            </h2>
+            <div class="html-blocks-chessboard__holder">
+
+                <!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img"
+                         style="background-image: url(img/partial-front.png);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/svg/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <svg version="1.1" id="1312603684" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;"
+                                 xml:space="preserve" class="svg u_1312603684" data-icon-custom="true"
+                                 data-icon-name="layers.svg"> <g> <g> <path d="M469.333,234.654c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			c9.917-5.917,15.833-16.084,15.833-27.199c0-11.115-5.917-21.282-15.833-27.21C420.833,102.678,310.062,36.851,255.458,5.548
+			c-12.646-7.261-28.021-7.552-41.688,0.063c0,0-148.5,87.224-197.917,116.486C5.917,127.992,0,138.159,0,149.316
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,213.33,0,223.497,0,234.654
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,298.668,0,308.835,0,319.992
+			c0,11.115,5.917,21.282,15.833,27.21C58.104,372.338,162,434.019,213.875,463.76c6.354,3.646,13.563,5.573,20.792,5.573
+			s14.438-1.927,20.813-5.584c51.854-29.731,155.75-91.411,198.021-116.558c9.917-5.917,15.833-16.084,15.833-27.199
+			c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			C463.417,255.936,469.333,245.769,469.333,234.654z M26.75,158.219c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865C76.083,111.24,224.375,24.146,224.354,24.156c6.792-3.823,14.208-3.677,20.5-0.073
+			c54.458,31.219,165.125,96.969,197.729,116.365c1.625,0.979,5.417,3.792,5.417,8.885s-3.792,7.906-5.417,8.875
+			c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			C172.729,244.927,68.958,183.313,26.75,158.219z M442.604,311.135c1.625,0.958,5.396,3.75,5.396,8.865
+			c0,5.094-3.792,7.906-5.417,8.875c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			c-51.75-29.656-155.521-91.271-197.729-116.365c-1.625-0.979-5.417-3.792-5.417-8.885c0-5.115,3.771-7.906,5.396-8.865
+			l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583
+			c37.461-21.478,101.997-59.578,150.923-88.583L442.604,311.135z M442.583,243.542c-42.208,25.104-145.979,86.719-197.708,116.365
+			c-6.417,3.667-14.021,3.656-20.396,0.01C172.729,330.26,68.958,268.646,26.75,243.552c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592
+			c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583c37.461-21.478,101.997-59.578,150.923-88.583l36.202,21.302
+			c1.625,0.958,5.396,3.75,5.396,8.865C448,239.76,444.208,242.573,442.583,243.542z"></path>
+</g>
+</g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+</svg>
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Heading text</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                            Some info text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+                            debitis doloremque ducimus eaque et id illo ipsum iste, itaque labore, minus nam nemo,
+                            nesciunt non quae <a href="#!">quaerat</a> quis quod rem!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#!">Asperiores</a> atque
+                            aut corporis,
+                            cupiditate debitis <a href="#!">distinctio</a> dolore eum ex incidunt ipsam ipsum itaque
+                            laudantium molestias
+                            nemo nihil officiis optio perspiciatis quo?
+                        </div>
+                        <!--                        Button text and link-->
+                        <a href="#!" class="html-blocks-chessboard__btn btn btn_active"><span>Button text</span></a>
+                    </div>
+                </div>
+
+                <!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img html-blocks-chessboard__img_cover"
+                         style="background-image: url(img/AdobeStock_108646507.jpeg);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <svg version="1.1" id="1312603684" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;"
+                                 xml:space="preserve" class="svg u_1312603684" data-icon-custom="true"
+                                 data-icon-name="layers.svg"> <g> <g> <path d="M469.333,234.654c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			c9.917-5.917,15.833-16.084,15.833-27.199c0-11.115-5.917-21.282-15.833-27.21C420.833,102.678,310.062,36.851,255.458,5.548
+			c-12.646-7.261-28.021-7.552-41.688,0.063c0,0-148.5,87.224-197.917,116.486C5.917,127.992,0,138.159,0,149.316
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,213.33,0,223.497,0,234.654
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,298.668,0,308.835,0,319.992
+			c0,11.115,5.917,21.282,15.833,27.21C58.104,372.338,162,434.019,213.875,463.76c6.354,3.646,13.563,5.573,20.792,5.573
+			s14.438-1.927,20.813-5.584c51.854-29.731,155.75-91.411,198.021-116.558c9.917-5.917,15.833-16.084,15.833-27.199
+			c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			C463.417,255.936,469.333,245.769,469.333,234.654z M26.75,158.219c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865C76.083,111.24,224.375,24.146,224.354,24.156c6.792-3.823,14.208-3.677,20.5-0.073
+			c54.458,31.219,165.125,96.969,197.729,116.365c1.625,0.979,5.417,3.792,5.417,8.885s-3.792,7.906-5.417,8.875
+			c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			C172.729,244.927,68.958,183.313,26.75,158.219z M442.604,311.135c1.625,0.958,5.396,3.75,5.396,8.865
+			c0,5.094-3.792,7.906-5.417,8.875c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			c-51.75-29.656-155.521-91.271-197.729-116.365c-1.625-0.979-5.417-3.792-5.417-8.885c0-5.115,3.771-7.906,5.396-8.865
+			l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583
+			c37.461-21.478,101.997-59.578,150.923-88.583L442.604,311.135z M442.583,243.542c-42.208,25.104-145.979,86.719-197.708,116.365
+			c-6.417,3.667-14.021,3.656-20.396,0.01C172.729,330.26,68.958,268.646,26.75,243.552c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592
+			c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583c37.461-21.478,101.997-59.578,150.923-88.583l36.202,21.302
+			c1.625,0.958,5.396,3.75,5.396,8.865C448,239.76,444.208,242.573,442.583,243.542z"></path>
+</g>
+</g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+</svg>
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Heading text</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                            Some info text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+                            debitis doloremque ducimus eaque et id illo ipsum iste, itaque labore, minus nam nemo,
+                            nesciunt non quae <a href="#!">quaerat</a> quis quod rem!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#!">Asperiores</a> atque
+                            aut corporis,
+                            cupiditate debitis <a href="#!">distinctio</a> dolore eum ex incidunt ipsam ipsum itaque
+                            laudantium molestias
+                            nemo nihil officiis optio perspiciatis quo?
+                        </div>
+                        <!--                        Button text and link-->
+                        <a href="#!" class="html-blocks-chessboard__btn btn btn_active"><span>Button text</span></a>
+                    </div>
+                </div>
+
+                <!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img html-blocks-chessboard__img_cover"
+                         style="background-image: url(img/AdobeStock_151056303.jpeg);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <svg version="1.1" id="1312603684" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;"
+                                 xml:space="preserve" class="svg u_1312603684" data-icon-custom="true"
+                                 data-icon-name="layers.svg"> <g> <g> <path d="M469.333,234.654c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			c9.917-5.917,15.833-16.084,15.833-27.199c0-11.115-5.917-21.282-15.833-27.21C420.833,102.678,310.062,36.851,255.458,5.548
+			c-12.646-7.261-28.021-7.552-41.688,0.063c0,0-148.5,87.224-197.917,116.486C5.917,127.992,0,138.159,0,149.316
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,213.33,0,223.497,0,234.654
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,298.668,0,308.835,0,319.992
+			c0,11.115,5.917,21.282,15.833,27.21C58.104,372.338,162,434.019,213.875,463.76c6.354,3.646,13.563,5.573,20.792,5.573
+			s14.438-1.927,20.813-5.584c51.854-29.731,155.75-91.411,198.021-116.558c9.917-5.917,15.833-16.084,15.833-27.199
+			c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			C463.417,255.936,469.333,245.769,469.333,234.654z M26.75,158.219c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865C76.083,111.24,224.375,24.146,224.354,24.156c6.792-3.823,14.208-3.677,20.5-0.073
+			c54.458,31.219,165.125,96.969,197.729,116.365c1.625,0.979,5.417,3.792,5.417,8.885s-3.792,7.906-5.417,8.875
+			c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			C172.729,244.927,68.958,183.313,26.75,158.219z M442.604,311.135c1.625,0.958,5.396,3.75,5.396,8.865
+			c0,5.094-3.792,7.906-5.417,8.875c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			c-51.75-29.656-155.521-91.271-197.729-116.365c-1.625-0.979-5.417-3.792-5.417-8.885c0-5.115,3.771-7.906,5.396-8.865
+			l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583
+			c37.461-21.478,101.997-59.578,150.923-88.583L442.604,311.135z M442.583,243.542c-42.208,25.104-145.979,86.719-197.708,116.365
+			c-6.417,3.667-14.021,3.656-20.396,0.01C172.729,330.26,68.958,268.646,26.75,243.552c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592
+			c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583c37.461-21.478,101.997-59.578,150.923-88.583l36.202,21.302
+			c1.625,0.958,5.396,3.75,5.396,8.865C448,239.76,444.208,242.573,442.583,243.542z"></path>
+</g>
+</g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+</svg>
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Heading text</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                            Some info text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+                            debitis doloremque ducimus eaque et id illo ipsum iste, itaque labore, minus nam nemo,
+                            nesciunt non quae <a href="#!">quaerat</a> quis quod rem!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#!">Asperiores</a> atque
+                            aut corporis,
+                            cupiditate debitis <a href="#!">distinctio</a> dolore eum ex incidunt ipsam ipsum itaque
+                            laudantium molestias
+                            nemo nihil officiis optio perspiciatis quo?
+                        </div>
+                        <!--                        Button text and link-->
+                        <a href="#!" class="html-blocks-chessboard__btn btn btn_active"><span>Button text</span></a>
+                    </div>
+                </div>
+
+                <!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img html-blocks-chessboard__img_cover"
+                         style="background-image: url(img/AdobeStock_279316954.jpeg);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <svg version="1.1" id="1312603684" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;"
+                                 xml:space="preserve" class="svg u_1312603684" data-icon-custom="true"
+                                 data-icon-name="layers.svg"> <g> <g> <path d="M469.333,234.654c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			c9.917-5.917,15.833-16.084,15.833-27.199c0-11.115-5.917-21.282-15.833-27.21C420.833,102.678,310.062,36.851,255.458,5.548
+			c-12.646-7.261-28.021-7.552-41.688,0.063c0,0-148.5,87.224-197.917,116.486C5.917,127.992,0,138.159,0,149.316
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,213.33,0,223.497,0,234.654
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,298.668,0,308.835,0,319.992
+			c0,11.115,5.917,21.282,15.833,27.21C58.104,372.338,162,434.019,213.875,463.76c6.354,3.646,13.563,5.573,20.792,5.573
+			s14.438-1.927,20.813-5.584c51.854-29.731,155.75-91.411,198.021-116.558c9.917-5.917,15.833-16.084,15.833-27.199
+			c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			C463.417,255.936,469.333,245.769,469.333,234.654z M26.75,158.219c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865C76.083,111.24,224.375,24.146,224.354,24.156c6.792-3.823,14.208-3.677,20.5-0.073
+			c54.458,31.219,165.125,96.969,197.729,116.365c1.625,0.979,5.417,3.792,5.417,8.885s-3.792,7.906-5.417,8.875
+			c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			C172.729,244.927,68.958,183.313,26.75,158.219z M442.604,311.135c1.625,0.958,5.396,3.75,5.396,8.865
+			c0,5.094-3.792,7.906-5.417,8.875c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			c-51.75-29.656-155.521-91.271-197.729-116.365c-1.625-0.979-5.417-3.792-5.417-8.885c0-5.115,3.771-7.906,5.396-8.865
+			l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583
+			c37.461-21.478,101.997-59.578,150.923-88.583L442.604,311.135z M442.583,243.542c-42.208,25.104-145.979,86.719-197.708,116.365
+			c-6.417,3.667-14.021,3.656-20.396,0.01C172.729,330.26,68.958,268.646,26.75,243.552c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592
+			c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583c37.461-21.478,101.997-59.578,150.923-88.583l36.202,21.302
+			c1.625,0.958,5.396,3.75,5.396,8.865C448,239.76,444.208,242.573,442.583,243.542z"></path>
+</g>
+</g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+</svg>
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Heading text</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                            Some info text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+                            debitis doloremque ducimus eaque et id illo ipsum iste, itaque labore, minus nam nemo,
+                            nesciunt non quae <a href="#!">quaerat</a> quis quod rem!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#!">Asperiores</a> atque
+                            aut corporis,
+                            cupiditate debitis <a href="#!">distinctio</a> dolore eum ex incidunt ipsam ipsum itaque
+                            laudantium molestias
+                            nemo nihil officiis optio perspiciatis quo?
+                        </div>
+                        <!--                        Button text and link-->
+                        <a href="#!" class="html-blocks-chessboard__btn btn btn_active"><span>Button text</span></a>
+                    </div>
+                </div>
+
+                <!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img html-blocks-chessboard__img_cover"
+                         style="background-image: url(img/AdobeStock_296204478.jpeg);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <svg version="1.1" id="1312603684" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;"
+                                 xml:space="preserve" class="svg u_1312603684" data-icon-custom="true"
+                                 data-icon-name="layers.svg"> <g> <g> <path d="M469.333,234.654c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			c9.917-5.917,15.833-16.084,15.833-27.199c0-11.115-5.917-21.282-15.833-27.21C420.833,102.678,310.062,36.851,255.458,5.548
+			c-12.646-7.261-28.021-7.552-41.688,0.063c0,0-148.5,87.224-197.917,116.486C5.917,127.992,0,138.159,0,149.316
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,213.33,0,223.497,0,234.654
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,298.668,0,308.835,0,319.992
+			c0,11.115,5.917,21.282,15.833,27.21C58.104,372.338,162,434.019,213.875,463.76c6.354,3.646,13.563,5.573,20.792,5.573
+			s14.438-1.927,20.813-5.584c51.854-29.731,155.75-91.411,198.021-116.558c9.917-5.917,15.833-16.084,15.833-27.199
+			c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			C463.417,255.936,469.333,245.769,469.333,234.654z M26.75,158.219c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865C76.083,111.24,224.375,24.146,224.354,24.156c6.792-3.823,14.208-3.677,20.5-0.073
+			c54.458,31.219,165.125,96.969,197.729,116.365c1.625,0.979,5.417,3.792,5.417,8.885s-3.792,7.906-5.417,8.875
+			c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			C172.729,244.927,68.958,183.313,26.75,158.219z M442.604,311.135c1.625,0.958,5.396,3.75,5.396,8.865
+			c0,5.094-3.792,7.906-5.417,8.875c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			c-51.75-29.656-155.521-91.271-197.729-116.365c-1.625-0.979-5.417-3.792-5.417-8.885c0-5.115,3.771-7.906,5.396-8.865
+			l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583
+			c37.461-21.478,101.997-59.578,150.923-88.583L442.604,311.135z M442.583,243.542c-42.208,25.104-145.979,86.719-197.708,116.365
+			c-6.417,3.667-14.021,3.656-20.396,0.01C172.729,330.26,68.958,268.646,26.75,243.552c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592
+			c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583c37.461-21.478,101.997-59.578,150.923-88.583l36.202,21.302
+			c1.625,0.958,5.396,3.75,5.396,8.865C448,239.76,444.208,242.573,442.583,243.542z"></path>
+</g>
+</g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+</svg>
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Heading text</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                            Some info text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+                            debitis doloremque ducimus eaque et id illo ipsum iste, itaque labore, minus nam nemo,
+                            nesciunt non quae <a href="#!">quaerat</a> quis quod rem!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#!">Asperiores</a> atque
+                            aut corporis,
+                            cupiditate debitis <a href="#!">distinctio</a> dolore eum ex incidunt ipsam ipsum itaque
+                            laudantium molestias
+                            nemo nihil officiis optio perspiciatis quo?
+                        </div>
+                        <!--                        Button text and link-->
+                        <a href="#!" class="html-blocks-chessboard__btn btn btn_active"><span>Button text</span></a>
+                    </div>
+                </div>
+
+                <!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img html-blocks-chessboard__img_cover"
+                         style="background-image: url(img/AdobeStock_348605690.jpeg);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <svg version="1.1" id="1312603684" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;"
+                                 xml:space="preserve" class="svg u_1312603684" data-icon-custom="true"
+                                 data-icon-name="layers.svg"> <g> <g> <path d="M469.333,234.654c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			c9.917-5.917,15.833-16.084,15.833-27.199c0-11.115-5.917-21.282-15.833-27.21C420.833,102.678,310.062,36.851,255.458,5.548
+			c-12.646-7.261-28.021-7.552-41.688,0.063c0,0-148.5,87.224-197.917,116.486C5.917,127.992,0,138.159,0,149.316
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,213.33,0,223.497,0,234.654
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,298.668,0,308.835,0,319.992
+			c0,11.115,5.917,21.282,15.833,27.21C58.104,372.338,162,434.019,213.875,463.76c6.354,3.646,13.563,5.573,20.792,5.573
+			s14.438-1.927,20.813-5.584c51.854-29.731,155.75-91.411,198.021-116.558c9.917-5.917,15.833-16.084,15.833-27.199
+			c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			C463.417,255.936,469.333,245.769,469.333,234.654z M26.75,158.219c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865C76.083,111.24,224.375,24.146,224.354,24.156c6.792-3.823,14.208-3.677,20.5-0.073
+			c54.458,31.219,165.125,96.969,197.729,116.365c1.625,0.979,5.417,3.792,5.417,8.885s-3.792,7.906-5.417,8.875
+			c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			C172.729,244.927,68.958,183.313,26.75,158.219z M442.604,311.135c1.625,0.958,5.396,3.75,5.396,8.865
+			c0,5.094-3.792,7.906-5.417,8.875c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			c-51.75-29.656-155.521-91.271-197.729-116.365c-1.625-0.979-5.417-3.792-5.417-8.885c0-5.115,3.771-7.906,5.396-8.865
+			l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583
+			c37.461-21.478,101.997-59.578,150.923-88.583L442.604,311.135z M442.583,243.542c-42.208,25.104-145.979,86.719-197.708,116.365
+			c-6.417,3.667-14.021,3.656-20.396,0.01C172.729,330.26,68.958,268.646,26.75,243.552c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592
+			c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583c37.461-21.478,101.997-59.578,150.923-88.583l36.202,21.302
+			c1.625,0.958,5.396,3.75,5.396,8.865C448,239.76,444.208,242.573,442.583,243.542z"></path>
+</g>
+</g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+</svg>
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Heading text</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                            Some info text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+                            debitis doloremque ducimus eaque et id illo ipsum iste, itaque labore, minus nam nemo,
+                            nesciunt non quae <a href="#!">quaerat</a> quis quod rem!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#!">Asperiores</a> atque
+                            aut corporis,
+                            cupiditate debitis <a href="#!">distinctio</a> dolore eum ex incidunt ipsam ipsum itaque
+                            laudantium molestias
+                            nemo nihil officiis optio perspiciatis quo?
+                        </div>
+                        <!--                        Button text and link-->
+                        <a href="#!" class="html-blocks-chessboard__btn btn btn_active"><span>Button text</span></a>
+                    </div>
+                </div>
+
+                <!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img"
+                         style="background-image: url(img/full-front.png);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <svg version="1.1" id="1312603684" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;"
+                                 xml:space="preserve" class="svg u_1312603684" data-icon-custom="true"
+                                 data-icon-name="layers.svg"> <g> <g> <path d="M469.333,234.654c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			c9.917-5.917,15.833-16.084,15.833-27.199c0-11.115-5.917-21.282-15.833-27.21C420.833,102.678,310.062,36.851,255.458,5.548
+			c-12.646-7.261-28.021-7.552-41.688,0.063c0,0-148.5,87.224-197.917,116.486C5.917,127.992,0,138.159,0,149.316
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,213.33,0,223.497,0,234.654
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,298.668,0,308.835,0,319.992
+			c0,11.115,5.917,21.282,15.833,27.21C58.104,372.338,162,434.019,213.875,463.76c6.354,3.646,13.563,5.573,20.792,5.573
+			s14.438-1.927,20.813-5.584c51.854-29.731,155.75-91.411,198.021-116.558c9.917-5.917,15.833-16.084,15.833-27.199
+			c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			C463.417,255.936,469.333,245.769,469.333,234.654z M26.75,158.219c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865C76.083,111.24,224.375,24.146,224.354,24.156c6.792-3.823,14.208-3.677,20.5-0.073
+			c54.458,31.219,165.125,96.969,197.729,116.365c1.625,0.979,5.417,3.792,5.417,8.885s-3.792,7.906-5.417,8.875
+			c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			C172.729,244.927,68.958,183.313,26.75,158.219z M442.604,311.135c1.625,0.958,5.396,3.75,5.396,8.865
+			c0,5.094-3.792,7.906-5.417,8.875c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			c-51.75-29.656-155.521-91.271-197.729-116.365c-1.625-0.979-5.417-3.792-5.417-8.885c0-5.115,3.771-7.906,5.396-8.865
+			l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583
+			c37.461-21.478,101.997-59.578,150.923-88.583L442.604,311.135z M442.583,243.542c-42.208,25.104-145.979,86.719-197.708,116.365
+			c-6.417,3.667-14.021,3.656-20.396,0.01C172.729,330.26,68.958,268.646,26.75,243.552c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592
+			c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583c37.461-21.478,101.997-59.578,150.923-88.583l36.202,21.302
+			c1.625,0.958,5.396,3.75,5.396,8.865C448,239.76,444.208,242.573,442.583,243.542z"></path>
+</g>
+</g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+</svg>
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Heading text</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                            Some info text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+                            debitis doloremque ducimus eaque et id illo ipsum iste, itaque labore, minus nam nemo,
+                            nesciunt non quae <a href="#!">quaerat</a> quis quod rem!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#!">Asperiores</a> atque
+                            aut corporis,
+                            cupiditate debitis <a href="#!">distinctio</a> dolore eum ex incidunt ipsam ipsum itaque
+                            laudantium molestias
+                            nemo nihil officiis optio perspiciatis quo?
+                        </div>
+                        <!--                        Button text and link-->
+                        <a href="#!" class="html-blocks-chessboard__btn btn btn_active"><span>Button text</span></a>
+                    </div>
+                </div>
+
+                <!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img"
+                         style="background-image: url(img/kavaca_ppf_protection_front_bumper.png);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <svg version="1.1" id="1312603684" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;"
+                                 xml:space="preserve" class="svg u_1312603684" data-icon-custom="true"
+                                 data-icon-name="layers.svg"> <g> <g> <path d="M469.333,234.654c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			c9.917-5.917,15.833-16.084,15.833-27.199c0-11.115-5.917-21.282-15.833-27.21C420.833,102.678,310.062,36.851,255.458,5.548
+			c-12.646-7.261-28.021-7.552-41.688,0.063c0,0-148.5,87.224-197.917,116.486C5.917,127.992,0,138.159,0,149.316
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,213.33,0,223.497,0,234.654
+			c0,11.115,5.917,21.282,15.833,27.21c7.115,4.231,16.085,9.562,26.15,15.537l-26.129,15.371C5.917,298.668,0,308.835,0,319.992
+			c0,11.115,5.917,21.282,15.833,27.21C58.104,372.338,162,434.019,213.875,463.76c6.354,3.646,13.563,5.573,20.792,5.573
+			s14.438-1.927,20.813-5.584c51.854-29.731,155.75-91.411,198.021-116.558c9.917-5.917,15.833-16.084,15.833-27.199
+			c0-11.157-5.917-21.324-15.854-27.22l-26.134-15.375c10.068-5.978,19.039-11.31,26.155-15.544
+			C463.417,255.936,469.333,245.769,469.333,234.654z M26.75,158.219c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865C76.083,111.24,224.375,24.146,224.354,24.156c6.792-3.823,14.208-3.677,20.5-0.073
+			c54.458,31.219,165.125,96.969,197.729,116.365c1.625,0.979,5.417,3.792,5.417,8.885s-3.792,7.906-5.417,8.875
+			c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			C172.729,244.927,68.958,183.313,26.75,158.219z M442.604,311.135c1.625,0.958,5.396,3.75,5.396,8.865
+			c0,5.094-3.792,7.906-5.417,8.875c-42.208,25.104-145.979,86.719-197.708,116.365c-6.417,3.667-14.021,3.656-20.396,0.01
+			c-51.75-29.656-155.521-91.271-197.729-116.365c-1.625-0.979-5.417-3.792-5.417-8.885c0-5.115,3.771-7.906,5.396-8.865
+			l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583
+			c37.461-21.478,101.997-59.578,150.923-88.583L442.604,311.135z M442.583,243.542c-42.208,25.104-145.979,86.719-197.708,116.365
+			c-6.417,3.667-14.021,3.656-20.396,0.01C172.729,330.26,68.958,268.646,26.75,243.552c-1.625-0.979-5.417-3.792-5.417-8.885
+			c0-5.115,3.771-7.906,5.396-8.865l36.199-21.301c48.928,29.001,113.47,67.107,150.947,88.592
+			c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583c37.461-21.478,101.997-59.578,150.923-88.583l36.202,21.302
+			c1.625,0.958,5.396,3.75,5.396,8.865C448,239.76,444.208,242.573,442.583,243.542z"></path>
+</g>
+</g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+                                <g></g>
+</svg>
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Heading text</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                            Some info text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+                            debitis doloremque ducimus eaque et id illo ipsum iste, itaque labore, minus nam nemo,
+                            nesciunt non quae <a href="#!">quaerat</a> quis quod rem!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#!">Asperiores</a> atque
+                            aut corporis,
+                            cupiditate debitis <a href="#!">distinctio</a> dolore eum ex incidunt ipsam ipsum itaque
+                            laudantium molestias
+                            nemo nihil officiis optio perspiciatis quo?
+                        </div>
+                        <!--                        Button text and link-->
+                        <a href="#!" class="html-blocks-chessboard__btn btn btn_active"><span>Button text</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- locations and info HTML block -->
+    <div class="html-blocks-info text-center">
+        <div class="html-blocks-info__container">
+            <!--            Put your logo here-->
+            <img src="img/Logo_Kavaca-PPF-Black.png" alt="Logo" loading="lazy" class="html-blocks-info__logo">
+<!--            Heading can be placed here. If you want different color of the text - put it inside span with class "text-highlight" -->
+            <h2 class="html-blocks-info__heading">Some heading with text that could be <span class="text-highlight">highlighted over here</span>
+            </h2>
+            <!-- paragraphs goes here. You can add/remove as many as you want -->
+            <p class="html-blocks-info__text">Some descriptive text goes here. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Cupiditate exercitationem hic libero modi mollitia odio perspiciatis? At cum
+                doloremque dolores eum <a href="#!">facilis</a> harum laudantium minus non quaerat, qui ut velit
+                voluptate? Aliquam aut
+                culpa cum delectus dolorem ducimus illo <a href="#!">illum ipsam ipsum</a> officia, pariatur
+                perspiciatis placeat,
+                repellendus sequi tenetur, velit!</p>
+            <!-- paragraphs goes here. You can add/remove as many as you want -->
+            <p class="html-blocks-info__text">
+                Another informative message. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#!">Aspernatur</a>
+                at atque ducimus facilis fugiat labore quas qui quisquam similique voluptatem.
+            </p>
+            <!-- Put link and text of location into this list item -->
+            <ul class="html-blocks-info__locations">
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+            </ul>
+            <!-- paragraphs goes here. You can add/remove as many as you want -->
+            <p class="html-blocks-info__text">
+                This paragraphs can be removed, if you don't need them. <a href="#!">Lorem</a> ipsum dolor sit amet,
+                consectetur
+                adipisicing elit. Architecto dignissimos, ducimus laudantium magni modi nemo!
+            </p>
+            <!-- paragraphs goes here. You can add/remove as many as you want -->
+            <p class="html-blocks-info__text">Another paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Accusamus architecto at eveniet ipsam iste magnam maxime officiis repellat sunt suscipit?
+                Accusantium, alias cumque deserunt dolores explicabo facilis id ipsum minima odit, porro quisquam
+                recusandae <a href="#!">repellendus</a>.</p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

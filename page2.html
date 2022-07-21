@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Blocks [page 2]</title>
+
+    <!-- styles for blocks -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <!--    HTML block hero-->
+
+    <!--    Put your image for background here into 'html-blocks-hero'. If you want to add border-bottom - add "bordered" class -->
+    <div class="html-blocks-hero" style="background-image: url(img/AdobeStock_169259993.jpeg);">
+        <div class="html-blocks-hero__container">
+            <!--            Pre heading text goes here-->
+            <p class="html-blocks-hero__text">
+                Another small text before heading
+            </p>
+            <!--            Heading text goes here-->
+            <h1 class="html-blocks-hero__heading">
+                Heading text goes here <br>
+                page 2
+            </h1>
+            <!--            Buttons. Put your URLs into href="#!" and text into <span></span>-->
+            <a href="#!" class="html-blocks-hero__btn btn btn_active"><span>View packages</span></a>
+            <a href="#!" class="html-blocks-hero__btn btn"><span>Schedule now</span></a>
+        </div>
+    </div>
+
+    <!-- Info HTML block-->
+    <div class="html-blocks-info">
+        <div class="html-blocks__container">
+            <!--            Text item-->
+            <div class="html-blocks__item text-center">
+                <!--                Link and logo-->
+                <a href="#!" class="html-blocks__logo"><img src="img/Logo_CeramicPro-Black.png" alt="logo"
+                                                            loading="lazy"></a>
+                <!--                Heading goes here-->
+                <h2 class="html-blocks__heading heading">Contact us heading <br> goes here</h2>
+                <!--                Paragraph goes here. class "font2" means use another font for paragraph-->
+                <p class="html-blocks__text font2">Some contact text. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing
+                    elit. Animi aspernatur consectetur, delectus distinctio dolor doloribus fugit ipsam maiores
+                    nesciunt, odio quisquam repellendus <a href="#!">rerum</a> temporibus voluptatum!</p>
+                <!--                Paragraph goes here. class "font2" means use another font for paragraph-->
+                <p class="html-blocks__text font2">Another text Lorem <a href="#!">ipsum</a> dolor sit amet, consectetur
+                    adipisicing elit. Rem,
+                    suscipit?</p>
+                <!--                Paragraph goes here. class "font2" means use another font for paragraph-->
+                <p class="html-blocks__text font2">Text again. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium animi aspernatur deserunt perferendis repellat tempora tempore totam. Accusamus
+                    consequatur id iste reiciendis temporibus. Ab deleniti dicta dignissimos impedit iusto magnam minus
+                    obcaecati qui, quia quibusdam, repellendus, similique vero voluptate? Ad eaque earum fugiat
+                    praesentium quidem repellendus sequi vel <a href="#!">voluptatem</a>? Illo itaque mollitia
+                    praesentium quas
+                    voluptatem.</p>
+                <!--                Button with hyperlink. Text should be inside span-->
+                <a href="#!" class="html-blocks__btn btn btn_active"><span>Contact Us</span></a>
+            </div>
+            <!--            Background image goes here -->
+            <div class="html-blocks__item html-blocks__img"
+                 style="background-image: url(img/AdobeStock_303505643_Editorial_Use_Only.jpeg);"></div>
+        </div>
+    </div>
+
+    <!--    Pricing HTML block -->
+    <div class="html-blocks-pricing">
+        <div class="html-blocks-pricing__container">
+            <!--            Inser your image here-->
+            <div class="html-blocks-pricing__item html-blocks-pricing__item_img"
+                 style="background-image: url(img/_DSC3071.jpg);"></div>
+            <div class="html-blocks-pricing__item">
+                <!--                Put heading of the block-->
+                <h2 class="html-blocks-pricing__heading">Heading of the block</h2>
+                <!--                Pricing buttons-->
+                <div class="html-blocks-pricing__prices">
+                    <!--                    Pricing button with link-->
+                    <a href="#!" class="html-blocks-pricing__price">
+                        <small>Cars</small>
+                        <strong>$2,310</strong>
+                    </a>
+                    <!--                    This button has selected class "html-blocks-pricing__price_selected" which makes background dark-->
+                    <a href="#!" class="html-blocks-pricing__price html-blocks-pricing__price_selected">
+                        <small>Bicycles</small>
+                        <strong>$1,120</strong>
+                    </a>
+                    <a href="#!" class="html-blocks-pricing__price">
+                        <small>Jeeps</small>
+                        <strong>$3,460</strong>
+                    </a>
+                </div>
+                <!--                Small heading, different font "font2" class-->
+                <div class="html-blocks-pricing__subheading font2">TURNAROUND 2-3 DAYS</div>
+                <div class="html-blocks-pricing__subheading font2">THIS PACKAGE INCLUDES</div>
+                <!--                List with different font "font2"-->
+                <ul class="html-blocks-pricing__ul font2">
+                    <li class="html-blocks-pricing__li">Lorem ipsum dolor.</li>
+                    <li class="html-blocks-pricing__li">Lorem ipsum dolor sit.</li>
+                    <li class="html-blocks-pricing__li">Lorem ipsum dolor sit amet.</li>
+                    <li class="html-blocks-pricing__li">Lorem ipsum dolor sit amet, consectetur.</li>
+                    <li class="html-blocks-pricing__li">Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+                    <li class="html-blocks-pricing__li">Lorem ipsum dolor sit amet.</li>
+                    <li class="html-blocks-pricing__li">Lorem ipsum.</li>
+                </ul>
+                <!--                "Note" has class important which makes it red and bold-->
+                <div class="html-blocks-pricing__text font2"><span class="important">NOTE:</span> Some note text</div>
+                <!--                Button with link-->
+                <a href="#!" class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!--    HTML block products-->
+    <div class="html-blocks-products text-center">
+        <div class="html-blocks-products__container">
+            <!--            Logo of series of products with link-->
+            <a href="#!" class="html-blocks-products__image"><img src="img/Logo_CeramicPro-Black.png" alt="Logo"
+                                                                  loading="lazy"></a>
+            <!--            Heading-->
+            <h2 class="html-blocks-products__heading heading">Heading text of a block</h2>
+            <!--            Small description-->
+            <p class="html-blocks-products__text">Description Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Esse ex inventore itaque neque nihil odio quidem voluptate! Alias, debitis nam nobis quia quo sit
+                voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, at earum eius eos
+                exercitationem ipsam itaque, necessitatibus nulla officiis, quae quia quis velit. A aspernatur aut
+                corporis dicta explicabo saepe?</p>
+            <!--            Products holder-->
+            <div class="html-blocks-products__holder">
+                <!--                Product item-->
+                <div class="html-blocks-products__item">
+                    <!--                    Product Image-->
+                    <img src="img/_DSC3220.jpg" alt="Product" loading="lazy" class="html-blocks-products__picture">
+                    <!--                    Product title-->
+                    <h3 class="html-blocks-products__title">Product title</h3>
+                    <!--                    Product description with different font. class "font 2"-->
+                    <p class="html-blocks-products__desc font2">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ab ad alias cum cupiditate deleniti dolore eligendi eveniet fugit labore, minima minus
+                        pariatur, similique suscipit vel veniam! Animi dignissimos expedita fugiat itaque, nostrum
+                        officia repellat repudiandae saepe totam voluptatem. Adipisci alias animi assumenda corporis
+                        ducimus eaque illo in, ipsum iste labore libero magnam, minus modi nam necessitatibus nisi non
+                        possimus quaerat, quas quibusdam sit tenetur vitae. Doloribus dolorum explicabo iure labore
+                        libero porro quod. Magni, voluptate?</p>
+                </div>
+                <!--                Product item-->
+                <div class="html-blocks-products__item">
+                    <!--                    Product Image-->
+                    <img src="img/_DSC3088.jpg" alt="Product" loading="lazy" class="html-blocks-products__picture">
+                    <!--                    Product title-->
+                    <h3 class="html-blocks-products__title">Product title</h3>
+                    <!--                    Product description with different font. class "font 2"-->
+                    <p class="html-blocks-products__desc font2">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Aliquam autem consectetur consequatur deleniti distinctio dolore doloribus eligendi
+                        facilis ipsa ipsum, iure laborum odio pariatur placeat possimus quae repellat sequi sit sunt
+                        vitae. Assumenda excepturi, facere harum magnam nesciunt quas quasi voluptatibus? At ducimus
+                        eligendi in minima, mollitia quisquam quod tempora.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
