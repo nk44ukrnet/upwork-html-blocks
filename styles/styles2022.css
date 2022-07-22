@@ -781,6 +781,7 @@ a {
   margin: 10px auto 10px;
   text-align: center;
   cursor: pointer;
+  border: none;
 }
 .custom-form ul {
   padding-left: 20px;
