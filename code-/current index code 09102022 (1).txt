@@ -1,0 +1,168 @@
+Current index code
+
+<div class="wrapper">
+    <!--    HTML block hero-->
+
+    <!--    Put your image for background here into 'html-blocks-hero'. If you want to avoid border-bottom - remove "bordered" class -->
+    <div class="html-blocks-hero bordered" style="background-image: url(img/auto-detailing-360-h.jpg);">
+        <div class="html-blocks-hero__container">
+            <!--            Pre heading text goes here-->
+            <p class="html-blocks-hero__text">
+              Auto Detailing, Clear Bras, Ceramic Coatings and PPF!
+          </p>
+            <!--            Heading text goes here-->
+            <h1 class="html-blocks-hero__heading">
+          Auto Detailing 360 Premium Detailing Services &amp; Products&nbsp; &nbsp; </h1>
+            <!--            Buttons. Put your URLs into href="#!" and text into <span></span>-->
+            <a href="https://www.autodetailing360.com/grand-junction-detailing" class="html-blocks-hero__btn btn btn_active"><span>Book today</span></a>
+            <a href="https://www.autodetailing360.com/auto-detailing-center-grand-junction-colorado" class="html-blocks-hero__btn btn"><span>Learn more</span></a>
+        </div>
+    </div>
+
+    <!--    Chessboard HTML block-->
+    <div class="html-blocks-chessboard">
+        <div class="html-blocks-chessboard__container">
+            <!--            Put your heading text -->
+            <h2 class="html-blocks-chessboard__heading">Grand Junction's Premium Choice for Auto Detailing, Ceramic Coatings &amp; Paint Protection Films (PPF)    &nbsp;
+            </h2>
+            <div class="html-blocks-chessboard__holder">
+<!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img html-blocks-chessboard__img_cover"
+                         style="background-image: url(img/auto-detailing-services.jpg);"></div>
+                  <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                    <div class="html-blocks-chessboard__icon">
+                            <img src="img/Auto-Detailing.png" alt="auto detailing" loading="lazy">
+                      </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Auto Detailing Services</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                    Our 360 <strong>Full Detail</strong> is Grand Junction's most complete full detail. We also offer <strong>interior only</strong>, <strong>exterior only</strong> and <strong>Ceramic Pro&reg; Sport + Interior Protection details</strong>&nbsp; &nbsp; </div>
+                      <!--                        Button text and link-->
+                      <a href="https://www.autodetailing360.com/grand-junction-detailing" class="html-blocks-chessboard__btn btn btn_active"><span>Learn More</span></a>
+                    </div>
+                </div>
+<!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img html-blocks-chessboard__img_cover"
+                         style="background-image: url(img/clearbra.jpg);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                      <div class="html-blocks-chessboard__icon">
+                            <img src="img/Clear-Bra.png" alt="clear bra ppf" loading="lazy">
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Clear Bras &amp; Paint Protection Film</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                      Rock chips no more! Pedals scratching your tailgate is a thing of the past. Optically clear paint protection film that hides swirls and outshines the competition. We feature Ceramic Pro&reg;&nbsp; ceramic infused clear bras and paint protection film. We also offer <a href="https://www.autodetailing360.com/paint-protection-film">Durashield Titan</a>.</div>
+                        <!--                        Button text and link-->
+                      <a href="https://www.autodetailing360.com/kavaca" class="html-blocks-chessboard__btn btn btn_active"><span>Learn More</span></a>
+                    </div>
+                </div>
+
+
+                
+                <!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img html-blocks-chessboard__img_cover"
+                         style="background-image: url(img/ceramic-coatings.png);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <img src="img/Ceramic-Coatings.png" alt="ceramic coatings" loading="lazy">
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Ceramic Coatings</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                      Never worry about waxing your car or truck again with a Ceramic Pro&reg; Gold package. Three times harder than your clear coat, insane gloss, virtually self-cleaning and proven at a 9H hardness to resist scratches,&nbsp;<a href="https://www.autodetailing360.com/ceramic-pro-grand-junction">Ceramic Pro® </a>is the ceramic coating of choice. We coat wheels, paint, trim &amp; glass! Additional <a href="https://www.autodetailing360.com/ceramic-coatings-grand-junction">ceramic coating</a> products also offered.</div>
+                        <!--                        Button text and link-->
+                        <a href="https://www.autodetailing360.com/ceramic-pro-grand-junction" class="html-blocks-chessboard__btn btn btn_active"><span>Learn More</span></a>
+                    </div>
+                </div>
+
+                <!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img html-blocks-chessboard__img_cover"
+                         style="background-image: url(img/paint-correction.jpg);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <img src="img/Paint-Correction.png" alt="Paint Correction" loading="lazy">
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">Paint Correction</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                          Paint correction is the art of taking out the swirls and surface-level scratches in your car or truck. Our high-end ceramic product includes some paint correction but we also offer it separately. It is important to understand the difference between polishing and paint correction. When a vehicle is detailed, we polish it. This means we use a compound and buffer to bring back the shine. When we paint correct a vehicle we make additional passes to remove more of the spidering and scratches. We offer single-step paint correction and multi-step depending on your needs and budget.
+                      </div>
+                        <!--                        Button text and link-->
+                        <a href="https://www.autodetailing360.com/detailing-quote" class="html-blocks-chessboard__btn btn btn_active"><span>Get Quote</span></a>
+                    </div>
+                </div>
+<!--                You can duplicate this item to make another one below-->
+                <div class="html-blocks-chessboard__item">
+                    <!--                    Put your image here. Add css class "html-blocks-chessboard__img_cover" if you want to cover all cell with image -->
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__img html-blocks-chessboard__img_cover"
+                         style="background-image: url(img/professional-products.jpg);"></div>
+                    <div class="html-blocks-chessboard__cell html-blocks-chessboard__desc">
+                        <!--                        Put your icon/small image here-->
+                        <div class="html-blocks-chessboard__icon">
+                            <img src="img/icon-star.svg" alt="Icon" loading="lazy">
+                        </div>
+                        <!--                        Heading text-->
+                        <h3 class="html-blocks-chessboard__title">DIY &amp; Professional Detailing Products</h3>
+                        <!--                        Description text-->
+                        <div class="html-blocks-chessboard__text">
+                        We ship detailing products nationwide and offer free shipping on orders over $50. We continue to have the largest selection of in stock DIY and Professional Detailing products on the Western Slope. If you prefer to detail your own car or if you are an industry professional, we have the products you need!&nbsp; </div>
+                        <!--                        Button text and link-->
+                        <a href="/shop" class="html-blocks-chessboard__btn btn btn_active"><span>Shop Now</span></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- locations and info HTML block -->
+    <div class="html-blocks-info text-center">
+        <div class="html-blocks-info__container">
+            <!--            Put your logo here-->
+            <img src="img/Logo_Kavaca-PPF-Black.png" alt="Kavaca paint protection films" loading="lazy" class="html-blocks-info__logo">
+<!--            Heading can be placed here. If you want a different color of the text - put it inside span with class "text-highlight" -->
+            <h2 class="html-blocks-info__heading">Dedicated to Ceramic Coatings and Clear Bras that&nbsp; <span class="text-highlight">Outperform &amp; Outshine the Competition!</span>
+            </h2>
+            <!-- paragraphs goes here. You can add/remove as many as you want -->
+            <p class="html-blocks-info__text">Grand Junction is our home. We believe Mesa County residents deserve the best ceramic coatings and paint protection films (PPF) on the market -- without being overcharged and without driving to Denver or Salt Lake! If you live on the Western Slope and want the absolute best&nbsp; detailing services, clear bras, ceramic coatings, and paint correction, Auto Detailing 360 is the clear choice.</p>
+            <!-- paragraphs goes here. You can add/remove as many as you want -->
+            <p class="html-blocks-info__text">
+          Don't&nbsp; take our word for it! Check out our customer reviews on Yelp and Google!</p>
+            <!-- Put link and text of location into this list item -->
+            <ul class="html-blocks-info__locations">
+                <li class="html-blocks-info__location"><a href="https://goo.gl/maps/ut7YNvMwoKqdL4HC7">Auto Detailing 360, LLC</a></li> <!--
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li>
+                <li class="html-blocks-info__location"><a href="#!">Location</a></li> -->
+            </ul>
+            <!-- paragraphs goes here. You can add/remove as many as you want -->
+            <p class="html-blocks-info__text">
+            Auto Detailing 360, LLC is based in Grand Junction, CO. Our ownership is local, onsite and in most cases Justin or Jeremy are the ones speaking with you and working on your vehicle!&nbsp; </p>
+            <!-- paragraphs goes here. You can add/remove as many as you want -->
+            <p class="html-blocks-info__text">&nbsp;</p>
+        </div>
+    </div>
+
+</div>

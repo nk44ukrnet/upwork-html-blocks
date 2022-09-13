@@ -340,13 +340,21 @@ a {
   transition: var(--transition);
   transform: skew(-21deg);
 }
+.btn:focus,
+.btn:visited {
+  color: var(--light);
+  text-decoration: none;
+}
 .btn:hover {
   background-color: var(--blue-alter);
+  color: var(--light);
+  text-decoration: none;
 }
 .btn span {
   position: relative;
   display: inline-block;
   transform: skew(21deg);
+  color: inherit;
 }
 .btn_active {
   background: var(--blue);
@@ -604,9 +612,14 @@ a {
   min-height: 300px;
   padding: 0;
 }
+.html-blocks-pricing__item_img.img-bg-contain {
+  background-size: contain;
+  background-position: center center;
+}
 .html-blocks-pricing__heading {
   font-size: 30px;
   font-weight: 300;
+  line-height: 150%;
 }
 .html-blocks-pricing__prices {
   display: flex;
@@ -621,6 +634,12 @@ a {
   gap: 5px;
   padding: 20px 40px;
   text-align: center;
+  text-decoration: none;
+}
+.html-blocks-pricing__price:hover,
+.html-blocks-pricing__price:active,
+.html-blocks-pricing__price:visited {
+  color: var(--light);
   text-decoration: none;
 }
 .html-blocks-pricing__price_selected {
@@ -771,7 +790,7 @@ a {
   border: 1px solid var(--dark1);
 }
 .custom-form button[type="submit"] {
-  padding: 20px 40px;
+  padding: 10px 40px;
   background-color: var(--dark1);
   color: var(--light);
   margin-top: 10px;
@@ -912,22 +931,54 @@ a {
     align-items: center;
     flex-wrap: wrap;
   }
+  .html-blocks-cars-cards__item:nth-child(even) .html-blocks-cars-cards__img {
+    order: 2;
+    flex: 0 1 300px;
+  }
+  .html-blocks-cars-cards__item:nth-child(even) .html-blocks-cars-cards__content:before,
+  .html-blocks-cars-cards__item:nth-child(even) .html-blocks-cars-cards__content::after {
+    display: none;
+  }
   .html-blocks-cars-cards__img {
     flex: 1 1 300px;
     width: 300px;
     order: 1;
   }
   .html-blocks-cars-cards__content {
-    padding: 0px 30px 30px;
+    padding: 20px 30px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
     position: relative;
+    flex: 1 1 auto;
   }
   .html-blocks-cars-cards__content::before,
   .html-blocks-cars-cards__content::after {
     display: none;
   }
+}
+.html-blocks-definition {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+.html-blocks-definition__item {
+  flex: 1 1 400px;
+}
+.html-blocks-definition__img {
+  width: 100%;
+  max-width: 400px;
+  margin-inline: auto;
+  text-align: center;
+  display: block;
+}
+.html-blocks-definition__text {
+  margin-top: 20px;
+  display: table;
+  margin-inline: auto;
 }
 /*# sourceMappingURL=styles2022.css.map */

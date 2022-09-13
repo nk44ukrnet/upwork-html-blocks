@@ -328,14 +328,22 @@ a {
   transition: var(--transition);
   transform: skew(-21deg);
 
+  &:focus, &:visited {
+    color: var(--light);
+    text-decoration: none;
+  }
+
   &:hover {
     background-color: var(--blue-alter);
+    color: var(--light);
+    text-decoration: none;
   }
 
   span {
     position: relative;
     display: inline-block;
     transform: skew(21deg);
+    color: inherit;
   }
 
   &_active {
@@ -669,12 +677,17 @@ a {
       background-position: center center;
       min-height: 300px;
       padding: 0;
+      &.img-bg-contain {
+        background-size: contain;
+        background-position: center center;
+      }
     }
   }
 
   &__heading {
     font-size: 30px;
     font-weight: 300;
+    line-height: 150%;
   }
 
   &__prices {
@@ -692,6 +705,11 @@ a {
     padding: 20px 40px;
     text-align: center;
     text-decoration: none;
+
+    &:hover, &:active, &:visited {
+      color: var(--light);
+      text-decoration: none;
+    }
 
     &_selected {
       background-color: var(--dark1);
@@ -904,7 +922,7 @@ a {
   border: 1px solid var(--dark1);
 
   button[type="submit"] {
-    padding: 20px 40px;
+    padding: 10px 40px;
     background-color: var(--dark1);
     color: var(--light);
     margin-top: 10px;
@@ -922,6 +940,7 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .infusion-field {
     display: flex;
     flex-direction: column;
@@ -1004,10 +1023,12 @@ a {
         order: 2;
         flex: 0 1 571px;
       }
+
       .html-blocks-cars-cards__content {
         &:before {
           display: none;
         }
+
         &::after {
           content: '';
           width: 1px;
@@ -1088,6 +1109,19 @@ a {
       flex-direction: column;
       align-items: center;
       flex-wrap: wrap;
+
+      &:nth-child(even) {
+        .html-blocks-cars-cards__img {
+          order: 2;
+          flex: 0 1 300px;
+        }
+
+        .html-blocks-cars-cards__content {
+          &:before, &::after {
+            display: none;
+          }
+        }
+      }
     }
 
     &__img {
@@ -1095,13 +1129,16 @@ a {
       width: 300px;
       order: 1;
     }
+
     &__content {
-      padding: 0px 30px 30px;
+      padding: 20px 30px 30px;
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 25px;
       position: relative;
+      flex: 1 1 auto;
+
       &::before, &::after {
         display: none;
       }
@@ -1109,18 +1146,31 @@ a {
   }
 }
 
-.heading {
-}
+//tint update
+.html-blocks-definition {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 20px;
 
-.text-center {
-}
+  &__item {
+    flex: 1 1 400px;
+  }
 
-.font2 {
-}
+  &__img {
+    width: 100%;
+    max-width: 400px;
+    margin-inline: auto;
+    text-align: center;
+    display: block;
+  }
 
-.btn {
-
-  &_active {
+  &__text {
+    margin-top: 20px;
+    display: table;
+    margin-inline: auto;
   }
 }
 
