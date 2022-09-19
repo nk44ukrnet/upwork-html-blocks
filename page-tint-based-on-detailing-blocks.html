@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Blocks [page tint based on detailing page blocks]</title>
+
+    <!-- styles for blocks -->
+    <link rel="stylesheet" href="styles/styles2022.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <!--    HTML block hero-->
+
+    <!--    Put your image for background here into 'html-blocks-hero'. If you want to add border-bottom - add "bordered" class -->
+    <div class="html-blocks-hero" style="background-image: url(img/tint_page_hero_img.jpeg);">
+        <div class="html-blocks-hero__container">
+            <!--            Pre heading text goes here-->
+            <p class="html-blocks-hero__text">
+                Car Window Tint  &amp; Truck Window Tint
+            </p>
+            <!--            Heading text goes here-->
+            <h1 class="html-blocks-hero__heading">
+                Auto Window Tint page<br>Grand Junction, CO
+            </h1>
+            <!--            Buttons. Put your URLs into href="#!" and text into <span></span>-->
+            <a href="#Packages" class="html-blocks-hero__btn btn btn_active"><span>View packages</span></a>
+            <a href="https://orbisx.ca/app/booknow/VSVh4" class="html-blocks-hero__btn btn"><span>Schedule now</span></a>
+        </div>
+    </div>
+
+    <!-- Info HTML block-->
+    <div class="html-blocks-info">
+        <div class="html-blocks__container">
+            <!--            Text item-->
+            <div class="html-blocks__item text-center">
+                <!--                Link and logo-->
+                <a href="#!" class="html-blocks__logo"></a>
+                <!--                Heading goes here-->
+                <h2 class="html-blocks__heading heading">Automotive Window Tinting</h2>
+                <!--                Paragraph goes here. class "font2" means to use another font for paragraph-->
+                <p class="html-blocks__text font2">Auto Detailing 360 features Kavaca Carbon and Kavaca IR window tint by Ceramic Pro. The leader in ceramic coatings and PPF brings you a high-end automotive tint that you can trust. Now locally installed right here in Grand Junction by Ceramic Pro certified applicators. All of our tint products increase privacy and decrease harmful cancer-causing rays while reducing infrared (IR) heat gain.
+                </p>
+                <!--                Paragraph goes here. class "font2" means to use another font for paragraph-->
+                <p class="html-blocks__text font2">Our trained professionals in our Grand Junction showroom can illustrate the difference between the different tinting packages and help you select the best car window tint for your needs. We stock a wide variety of tint and all cutting is done in-house. That means reduced waiting time and fast, professional, and accurate installation.
+                </p>
+                <!--                Paragraph goes here. class "font2" means to use another font for paragraph-->
+                <p class="html-blocks__text font2">From door windows to panoramic sunroofs. From Windshield strips to all your vehicles glass, Auto Detailing 360, LLC has everything you need to tint and style your vehicle.
+                </p>
+                <!--                Button with hyperlink. Text should be inside span-->
+                <a href="https://www.autodetailing360.com/detail-contact" class="html-blocks__btn btn btn_active"><span>Contact Us</span></a>
+            </div>
+            <!--            Background image goes here -->
+            <div class="html-blocks__item html-blocks__img"
+                 style="background-image: url(img/tint_page_img1.jpeg);"></div>
+        </div>
+    </div>
+
+    <!--    Pricing HTML block -->
+    <div class="html-blocks-pricing">
+        <div class="html-blocks-pricing__container" ID="Packages">
+
+            <!--        CS/IR block holder-->
+            <div class="html-blocks-cars-cards__definition html-blocks-definition">
+                <!--            CS/IR item -->
+                <div class="html-blocks-definition__item">
+                    <!--                CS/IR image -->
+                    <img src="img/tint_cs.png" alt="TINT CS" class="html-blocks-definition__img" loading="lazy">
+                    <!--                CS/IR short description-->
+                    <p class="html-blocks-definition__text">
+                        Lifetime Warranty <br>
+                        Filters 99% of UVA and UVB Rays <br>
+                        Filters 70% Infra-Red Heat
+                    </p>
+                </div>
+                <!--            CS/IR item -->
+                <div class="html-blocks-definition__item">
+                    <!--                CS/IR image -->
+                    <img src="img/tint_ir.png" alt="TINT IR" class="html-blocks-definition__img" loading="lazy">
+                    <!--                CS/IR short description-->
+                    <p class="html-blocks-definition__text">
+                        Nano Ceramic Technology <br>
+                        Lifetime Guarantee <br>
+                        Glare Control <br>
+                        IR Layer Filters 96% of Infrared Heat <br>
+                        IR Layer Blocks up to 99%+ of UVA and UVB rays
+                    </p>
+                </div>
+            </div>
+
+            <div class="html-blocks-pricing__holder html-blocks-pricing__holder_tint">
+                <div class="html-blocks-pricing__row">
+                    <!--            Insert your image here. "img-bg-contain" class makes contain image, not fill it -->
+                    <div class="html-blocks-pricing__item html-blocks-pricing__item_img img-bg-contain"
+                         style="background-image: url(img/tint_package_1.jpg);"></div>
+                    <div class="html-blocks-pricing__item">
+                        <!--                Put heading of the block-->
+                        <h2 class="html-blocks-pricing__heading">FRONT ONLY</h2>
+                        <!--                Pricing buttons-->
+                        <div class="html-blocks-pricing__prices">
+                            <!--                    Pricing button with link-->
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>CS Window Film</small>
+                                <strong>From $149</strong>
+                            </a>
+                            <!--                    This button has selected class "html-blocks-pricing__price_selected" which makes background dark-->
+                            <a href="#!" class="html-blocks-pricing__price html-blocks-pricing__price_selected">
+                                <small>IR Window Film</small>
+                                <strong>From $249</strong>
+                            </a>
+                        </div>
+                        <!--                Small heading, different font "font2" class-->
+                        <div class="html-blocks-pricing__subheading font2">TURNAROUND 1-2HOURS</div>
+                        <div class="html-blocks-pricing__subheading font2">Additional Options</div>
+                        <!--                List with different font "font2"-->
+                        <ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">Windshield Brow: $50</li>
+                            <li class="html-blocks-pricing__li">Standard Sunroof $199</li>
+                        </ul>
+                        <!--                "Note" has class important, which makes it red and bold-->
+                        <div class="html-blocks-pricing__text font2">
+                            One of our more popular packages. This package includes both front roll-up windows and also includes any other side-front glass you may have. For example many vehicles have a small piece of inoperable glass right next to the roll-down windows.
+                        </div>
+                        <!--                Button with link-->
+                        <a href="https://orbisx.ca/app/booknow/VSVh4"
+                           class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+                    </div>
+                </div>
+                <div class="html-blocks-pricing__row">
+                    <!--            Insert your image here. "img-bg-contain" class makes contain image, not fill it -->
+                    <div class="html-blocks-pricing__item html-blocks-pricing__item_img img-bg-contain"
+                         style="background-image: url(img/tint_package_2.jpg);"></div>
+                    <div class="html-blocks-pricing__item">
+                        <!--                Put heading of the block-->
+                        <h2 class="html-blocks-pricing__heading">FULL CAR</h2>
+                        <!--                Pricing buttons-->
+                        <div class="html-blocks-pricing__prices">
+                            <!--                    Pricing button with link-->
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>CS Window Film</small>
+                                <strong>From $399</strong>
+                            </a>
+                            <!--                    This button has selected class "html-blocks-pricing__price_selected" which makes background dark-->
+                            <a href="#!" class="html-blocks-pricing__price html-blocks-pricing__price_selected">
+                                <small>IR Window Film</small>
+                                <strong>From $699</strong>
+                            </a>
+                        </div>
+                        <!--                Small heading, different font "font2" class-->
+                        <div class="html-blocks-pricing__subheading font2">TURNAROUND 1-2HOURS</div>
+                        <div class="html-blocks-pricing__subheading font2">Additional Options</div>
+                        <!--                List with different font "font2"-->
+                        <ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">Windshield Brow: $50</li>
+                            <li class="html-blocks-pricing__li">Standard Sunroof $199</li>
+                        </ul>
+                        <!--                        Insert description text here. font2 class - means different font-->
+                        <div class="html-blocks-pricing__text font2">
+                            Our full car package includes all side glass and the rear windshield. A front windshield strip or skylight can be added for an additional fee. This package is popular even when the rear windows already have privacy glass as most factory privacy glass does not offer the heat and UV blocking as Kavaca window tint.
+                        </div>
+                        <!--                Button with link-->
+                        <a href="https://orbisx.ca/app/booknow/VSVh4"
+                           class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+                    </div>
+                </div>
+                <div class="html-blocks-pricing__row">
+                    <!--            Insert your image here. "img-bg-contain" class makes contain image, not fill it-->
+                    <div class="html-blocks-pricing__item html-blocks-pricing__item_img img-bg-contain"
+                         style="background-image: url(img/tint_package_3.jpg);"></div>
+                    <div class="html-blocks-pricing__item">
+                        <!--                Put heading of the block-->
+                        <h2 class="html-blocks-pricing__heading">FULL COVERAGE</h2>
+                        <!--                Pricing buttons-->
+                        <div class="html-blocks-pricing__prices">
+                            <!--                    Pricing button with link-->
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>CS Window Film</small>
+                                <strong>From $799</strong>
+                            </a>
+                            <!--                    This button has selected class "html-blocks-pricing__price_selected" which makes background dark-->
+                            <a href="#!" class="html-blocks-pricing__price html-blocks-pricing__price_selected">
+                                <small>IR Window Film</small>
+                                <strong>From $999</strong>
+                            </a>
+                        </div>
+                        <!--                Small heading, different font "font2" class-->
+                        <div class="html-blocks-pricing__subheading font2">TURNAROUND 2-3 HOURS</div>
+                        <div class="html-blocks-pricing__subheading font2">Additional Options</div>
+                        <!--                List with different font "font2"-->
+                        <ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">Windshield Brow: $50</li>
+                            <li class="html-blocks-pricing__li">Standard Sunroof $199</li>
+                        </ul>
+                        <!--                "Note" has class important which makes it red and bold-->
+                        <div class="html-blocks-pricing__text font2">
+                            While we highly discourage full windshield tinting due to state law, we do have a full tint package available to those who need it. This package covers all glass including any sunroofs.
+                        </div>
+                        <!--                Button with link-->
+                        <a href="https://orbisx.ca/app/booknow/VSVh4"
+                           class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+                    </div>
+                </div>
+                <div class="html-blocks-pricing__row">
+                    <!--            Insert your image here. "img-bg-contain" class makes contain image, not fill it-->
+                    <div class="html-blocks-pricing__item html-blocks-pricing__item_img img-bg-contain"
+                         style="background-image: url(img/tint_package_4.jpg);"></div>
+                    <div class="html-blocks-pricing__item">
+                        <!--                Put heading of the block-->
+                        <h2 class="html-blocks-pricing__heading">Sunroof</h2>
+                        <!--                Pricing buttons-->
+                        <div class="html-blocks-pricing__prices">
+                            <!--                    Pricing button with link-->
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>Sunroof</small>
+                                <strong>$199</strong>
+                            </a>
+                            <!--                    This button has selected class "html-blocks-pricing__price_selected" which makes background dark-->
+                            <a href="#!" class="html-blocks-pricing__price html-blocks-pricing__price_selected">
+                                <small>Panoramic </small>
+                                <strong>$499</strong>
+                            </a>
+                        </div>
+                        <!--                Small heading, different font "font2" class-->
+                        <div class="html-blocks-pricing__subheading font2">TURNAROUND 2-3 HOURS</div>
+                        <div class="html-blocks-pricing__subheading font2">Additional Options</div>
+                        <!--                List with different font "font2"-->
+                        <ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">Windshield Brow: $50</li>
+                            <li class="html-blocks-pricing__li">Standard Sunroof $199</li>
+                        </ul>
+                        <!--                "Note" has class important which makes it red and bold-->
+                        <div class="html-blocks-pricing__text font2">Selecting sunroof tint has some important concerns. Going too dark on a sunroof can damage the glass. Our industry experts will help you select the perfect shade for your sunroof or panoramic sunroom.
+                        </div>
+                        <!--                Button with link-->
+                        <a href="https://orbisx.ca/app/booknow/VSVh4"
+                           class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+                    </div>
+                </div>
+                <div class="html-blocks-pricing__row">
+                    <!--            Insert your image here. "img-bg-contain" class makes contain image, not fill it-->
+                    <div class="html-blocks-pricing__item html-blocks-pricing__item_img img-bg-contain"
+                         style="background-image: url(img/tint_package_5.jpg);"></div>
+                    <div class="html-blocks-pricing__item">
+                        <!--                Put heading of the block-->
+                        <h2 class="html-blocks-pricing__heading">WINDSHIELD ONLY</h2>
+                        <!--                Pricing buttons-->
+                        <div class="html-blocks-pricing__prices">
+                            <!--                    Pricing button with link-->
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>From</small>
+                                <strong>$335</strong>
+                            </a>
+                        </div>
+                        <!--                Small heading, different font "font2" class-->
+                        <div class="html-blocks-pricing__subheading font2">TURNAROUND 1-2 DAYS</div>
+                        <div class="html-blocks-pricing__subheading font2">Additional Options</div>
+                        <!--                List with different font "font2"-->
+                        <ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">Windshield Brow: $50</li>
+                            <li class="html-blocks-pricing__li">Standard Sunroof $199</li>
+                        </ul>
+                        <!--                "Note" has class important which makes it red and bold-->
+                        <div class="html-blocks-pricing__text font2">
+                            Utilizing a high visibility film on the windshield is a great way to reduce heat gain and the dangers of driving into the sun. For most Colorado drivers we suggest a strip instead of a full windshield so that you comply with Colorado tinting laws
+                        </div>
+                        <!--                Button with link-->
+                        <a href="https://orbisx.ca/app/booknow/VSVh4"
+                           class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
