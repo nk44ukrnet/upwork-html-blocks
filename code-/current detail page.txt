@@ -1,0 +1,343 @@
+Current detail page
+
+ONLY NEED TWO PRICE BOXES for tint page
+
+
+<div class="wrapper">
+    <!--    HTML block hero-->
+
+    <!--    Put your image for background here into 'html-blocks-hero'. If you want to add border-bottom - add "bordered" class -->
+    <div class="html-blocks-hero" style="background-image: url(img/detailing-hero.jpg);">
+        <div class="html-blocks-hero__container">
+            <!--            Pre heading text goes here-->
+            <p class="html-blocks-hero__text">
+          Full Detail, Interior Detail, Exterior Details &amp; Ceramic Details</p>
+            <!--            Heading text goes here-->
+            <h1 class="html-blocks-hero__heading">
+              Professional Auto Detailing Services<br>Grand Junction, CO
+          </h1>
+            <!--            Buttons. Put your URLs into href="#!" and text into <span></span>-->
+            <a href="#Packages" class="html-blocks-hero__btn btn btn_active"><span>View packages</span></a>
+            <a href="https://www.autodetailing360.com/detail-contact" class="html-blocks-hero__btn btn"><span>Schedule now</span></a>
+        </div>
+    </div>
+
+    <!-- Info HTML block-->
+    <div class="html-blocks-info">
+        <div class="html-blocks__container">
+            <!--            Text item-->
+            <div class="html-blocks__item text-center">
+                <!--                Link and logo-->
+                <a href="#!" class="html-blocks__logo"></a>
+                <!--                Heading goes here-->
+              <h2 class="html-blocks__heading heading">Auto&nbsp; Detailing      &nbsp;</h2>
+                <!--                Paragraph goes here. class "font2" means use another font for paragraph-->
+                <p class="html-blocks__text font2">Auto Detailing done right! Because you and your vehicle deserve it!&nbsp; Our full details, on average, take 6-8 man hours. When we return your vehicle to you, you can rest assured that it will be more than just cleaned and protected. Chances are it will look better than you thought possible&nbsp; &nbsp; &nbsp;</p>
+                <!--                Paragraph goes here. class "font2" means to use another font for paragraph-->
+                <p class="html-blocks__text font2">Auto Detailing 360 also offers a full line of <a href="https://www.autodetailing360.com/ceramic-pro-grand-junction">ceramic coatings</a> and <a href="https://www.autodetailing360.com/kavaca">paint protection films.</a></p>
+                There are a lot of great auto detailing companies in the valley. Some are mobile, and some are location-based. Many of the Grand Junction detailing companies buy detailing supplies from our showroom. We believe Auto Detailing 360 offers a variety of advantages that make us the best choice for auto detailing in the Grand Junction Area.                <!--                Paragraph goes here. class "font2" means use another font for paragraph-->
+              <p class="html-blocks__text font2">Our team has been factory-trained. These trainings are often multi-day, hands-on, and very intensive. Our team is trained by the people we buy the product from on the best applications and the best way to detail your car.&nbsp;</p>
+                <p class="html-blocks__text font2">While many in the industry have moved to "All-Purpose Cleaners" for much of your vehicle, we use different products specifically designed for each part of your car or truck! Can you imagine if you came home and your new leather couch was being cleaned with the same chemicals as the garage sink or the toilet? Why should your vehicle be any different? Plastic surfaces are cleaned and protected with products made for plastics. Leather is cleaned and conditioned with leather cleaners and conditioners. Your wheels are treated with an acid-free wheel cleaner that is specifically designed to remove brake dust and contaminants. In short, we use the best products available to protect your car, truck, or SUV.</p>
+              <!--                Button with hyperlink. Text should be inside span-->
+                <a href="https://www.autodetailing360.com/detail-contact" class="html-blocks__btn btn btn_active"><span>Contact Us</span></a>
+            </div>
+            <!--            Background image goes here -->
+            <div class="html-blocks__item html-blocks__img"
+                 style="background-image: url(img/detailing-main.jpg);"></div>
+        </div>
+    </div>
+
+    <!--    Pricing HTML block -->
+    <div class="html-blocks-pricing">
+        <div class="html-blocks-pricing__container" ID="Packages" >
+
+            <div class="html-blocks-pricing__holder">
+                <div class="html-blocks-pricing__row">
+                    <!--            Insert your image here-->
+                    <div class="html-blocks-pricing__item html-blocks-pricing__item_img"
+                         style="background-image: url(img/detailing-quick-detail.jpg);"></div>
+                    <div class="html-blocks-pricing__item">
+                        <!--                Put heading of the block-->
+                        <h2 class="html-blocks-pricing__heading">Quick Detail&nbsp;</h2>
+                        <!--                Pricing buttons-->
+                        <div class="html-blocks-pricing__prices">
+                            <!--                    Pricing button with link-->
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>Cars</small>
+                                <strong>$149</strong>
+                            </a>
+                            <!--                    This button has selected class "html-blocks-pricing__price_selected" which makes background dark-->
+                            <a href="#!" class="html-blocks-pricing__price html-blocks-pricing__price_selected">
+                                <small>Trucks/SUV</small>
+                                <strong>$149</strong>
+                            </a>
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>Large SUVs</small>
+                                <strong>$149</strong>
+                            </a>
+                        </div>
+                        <!--                Small heading, different font "font2" class-->
+                        <div class="html-blocks-pricing__subheading font2">TURNAROUND 1-2HOURS</div>
+                        <div class="html-blocks-pricing__subheading font2">THIS PACKAGE INCLUDES</div>
+                        <!--                List with different font "font2"-->
+                        <ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">Exterior wash &amp; Dry</li>
+                            <li class="html-blocks-pricing__li">Spray Sealant</li>
+                            <li class="html-blocks-pricing__li">Interior/Exterior Glass</li>
+                            <li class="html-blocks-pricing__li">Full Vacuum</li>
+                            <li class="html-blocks-pricing__li">Quick Wipedown
+                            </li>
+                            <li class="html-blocks-pricing__li">Wipe Door Jams*</li>
+                            <li class="html-blocks-pricing__li">Wheels &amp; TIres*</li>
+                        </ul>
+                        <!--                "Note" has class important, which makes it red and bold-->
+                        <div class="html-blocks-pricing__text font2"><span class="important">NOTE:</span> Our quick detail is what some in the market consider a full detail. By our standards, it is&nbsp; not. It is great for maintaining a regularly detailed vehicle or cleaning up the car before an important meeting or date, but it does not replace a true full detail. *as time allows.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </div>
+                        <!--                Button with link-->
+                        <a href="https://www.autodetailing360.com/detail-contact" class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+                    </div>
+                </div>
+                <div class="html-blocks-pricing__row">
+                    <!--            Insert your image here-->
+                    <div class="html-blocks-pricing__item html-blocks-pricing__item_img"
+                         style="background-image: url(img/detailing-full-detail-360.jpg);"></div>
+                    <div class="html-blocks-pricing__item">
+                        <!--                Put heading of the block-->
+                        <h2 class="html-blocks-pricing__heading">360 FULL DETAIL&nbsp;</h2>
+                        <!--                Pricing buttons-->
+                        <div class="html-blocks-pricing__prices">
+                            <!--                    Pricing button with link-->
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>Cars</small>
+                                <strong>$299</strong>
+                            </a>
+                            <!--                    This button has selected class "html-blocks-pricing__price_selected" which makes background dark-->
+                            <a href="#!" class="html-blocks-pricing__price html-blocks-pricing__price_selected">
+                                <small>Trucks/SUVs</small>
+                                <strong>$349</strong>
+                            </a>
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>Large SUVs</small>
+                                <strong>$399</strong>
+                            </a>
+                        </div>
+                        <!--                Small heading, different font "font2" class-->
+                        <div class="html-blocks-pricing__subheading font2">TURNAROUND 4-6 HOURS</div>
+                      <div class="html-blocks-pricing__subheading font2">
+                          <p>THIS PACKAGE INCLUDES</p>
+                          <p>&nbsp;</p>
+                          
+                        </div>
+						<p><strong>Interior Detail</strong>&nbsp;</p>
+                        <!--                List with different font "font2"-->
+                        <ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">Interior Vacuum</li>
+                            <li class="html-blocks-pricing__li">Deep Clean Floor Mats</li>
+                            <li class="html-blocks-pricing__li">Clean Seats &amp; Carpet</li>
+                            <li class="html-blocks-pricing__li">Clean &amp; Dress Interior Surfaces</li>
+                            <li class="html-blocks-pricing__li">Clean Windows/ Windshield
+                            </li>
+                            <li class="html-blocks-pricing__li">Headliner Cleaning</li>
+                          <li class="html-blocks-pricing__li">Clean Door Sills</li>
+                          <li class="html-blocks-pricing__li">Clean Seatbelts &amp; Buckles</li>
+							        <li class="html-blocks-pricing__li">Clean Pedals </li>
+                          
+                      </ul><BR>
+                      <strong>Exterior Detail </strong>
+						<ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">Interior Vacuum</li>
+                            <li class="html-blocks-pricing__li">Deep Clean Floor Mats</li>
+                            <li class="html-blocks-pricing__li">Clean Seats &amp; Carpet</li>
+                            <li class="html-blocks-pricing__li">Clean &amp; Dress Interior Surfaces</li>
+                            <li class="html-blocks-pricing__li">Clean Windows/ Windshield
+                            </li>
+                            <li class="html-blocks-pricing__li">Headliner Cleaning</li>
+                          <li class="html-blocks-pricing__li">Clean Door Sills</li>
+                          <li class="html-blocks-pricing__li">Clean Seatbelts &amp; Buckles</li>
+                          
+                      </ul>
+                      <!--                "Note" has class important which makes it red and bold-->
+<div class="html-blocks-pricing__text font2"><span class="important">&nbsp;</span> Our flagship full detail.&nbsp; Our full service "360 Detail" is detailing the way it is meant to be done! Detailing is done in our shop using a combination of German Engineered and American products. All surfaces are cleaned and protected with an appropriate product. We utilize two pressure washers, CR Spotless purified water on final rinse, and FLEX polishers combined with SONAX Polish. We have top-of-the-line steaming and extraction onsite.  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+                        <!--                Button with link-->
+                        <a href="https://www.autodetailing360.com/detail-contact" class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+                    </div>
+                </div>
+                <div class="html-blocks-pricing__row">
+                    <!--            Insert your image here-->
+                    <div class="html-blocks-pricing__item html-blocks-pricing__item_img"
+                         style="background-image: url(img/detailing-interior.jpg);"></div>
+                    <div class="html-blocks-pricing__item">
+                        <!--                Put heading of the block-->
+                        <h2 class="html-blocks-pricing__heading">Interior Detail</h2>
+                        <!--                Pricing buttons-->
+                        <div class="html-blocks-pricing__prices">
+                            <!--                    Pricing button with link-->
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>Cars</small>
+                                <strong>$175</strong>
+                            </a>
+                            <!--                    This button has selected class "html-blocks-pricing__price_selected" which makes background dark-->
+                            <a href="#!" class="html-blocks-pricing__price html-blocks-pricing__price_selected">
+                                <small>Trucks/SUVs&nbsp;</small>
+                                <strong>$200</strong>
+                            </a>
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>Large SUVs</small>
+                                <strong>$219</strong>
+                            </a>
+                        </div>
+                        <!--                Small heading, different font "font2" class-->
+                        <div class="html-blocks-pricing__subheading font2">TURNAROUND 2-3 HOURS</div>
+                        <div class="html-blocks-pricing__subheading font2">THIS PACKAGE INCLUDES</div><p><strong>Interior Detail</strong>&nbsp;</p>
+                        <!--                List with different font "font2"-->
+                        <ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">Interior Vacuum</li>
+                            <li class="html-blocks-pricing__li">Deep Clean Floor Mats</li>
+                            <li class="html-blocks-pricing__li">Clean Seats &amp; Carpet</li>
+                            <li class="html-blocks-pricing__li">Clean &amp; Dress Interior Surfaces</li>
+                            <li class="html-blocks-pricing__li">Clean Windows/ Windshield
+                            </li>
+                            <li class="html-blocks-pricing__li">Headliner Cleaning</li>
+                          <li class="html-blocks-pricing__li">Clean Door Sills</li>
+                          <li class="html-blocks-pricing__li">Clean Seatbelts &amp; Buckles</li>
+							        <li class="html-blocks-pricing__li">Clean Pedals </li>
+                          
+                      </ul>
+                        <!--                "Note" has class important which makes it red and bold-->
+                        <div class="html-blocks-pricing__text font2"><span class="important">NOTE:</span>For interior detail, depending on materials and soil level portions of the vehicle may be damp. We would be happy to store the vehicle for 24 hours until dry. 
+                        </div>
+                        <!--                Button with link-->
+                        <a href="https://www.autodetailing360.com/detail-contact" class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+                    </div>
+                </div>
+                <div class="html-blocks-pricing__row">
+                    <!--            Insert your image here-->
+                    <div class="html-blocks-pricing__item html-blocks-pricing__item_img"
+                         style="background-image: url(img/detailing-exterior.jpg);"></div>
+                    <div class="html-blocks-pricing__item">
+                        <!--                Put heading of the block-->
+                        <h2 class="html-blocks-pricing__heading">Exterior Detail&nbsp;</h2>
+                        <!--                Pricing buttons-->
+                        <div class="html-blocks-pricing__prices">
+                            <!--                    Pricing button with link-->
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>Cars</small>
+                                <strong>$175</strong>
+                            </a>
+                            <!--                    This button has selected class "html-blocks-pricing__price_selected" which makes background dark-->
+                            <a href="#!" class="html-blocks-pricing__price html-blocks-pricing__price_selected">
+                                <small>Trucks/SUVs</small>
+                                <strong>$200</strong>
+                            </a>
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>Large SUVs</small>
+                                <strong>$219</strong>
+                            </a>
+                        </div>
+                        <!--                Small heading, different font "font2" class-->
+                        <div class="html-blocks-pricing__subheading font2">TURNAROUND 2-3 HOURS&nbsp;&nbsp;</div>
+                        <div class="html-blocks-pricing__subheading font2">THIS PACKAGE INCLUDES</div> <strong>Exterior Detail </strong>
+					  <ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">Interior Vacuum</li>
+                            <li class="html-blocks-pricing__li">Deep Clean Floor Mats</li>
+                            <li class="html-blocks-pricing__li">Clean Seats &amp; Carpet</li>
+                            <li class="html-blocks-pricing__li">Clean &amp; Dress Interior Surfaces</li>
+                            <li class="html-blocks-pricing__li">Clean Windows/ Windshield
+                            </li>
+                            <li class="html-blocks-pricing__li">Headliner Cleaning</li>
+                          <li class="html-blocks-pricing__li">Clean Door Sills</li>
+                          <li class="html-blocks-pricing__li">Clean Seatbelts &amp; Buckles</li>
+                          
+                      </ul>
+                        <!--                "Note" has class important which makes it red and bold-->
+                        <div class="html-blocks-pricing__text font2"><span class="important">NOTE:</span> &nbsp;The exterior&nbsp; detail we offer is a complete exterior detail. It includes polishing and a spray ceramic as well as all items listed.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+                        <!--                Button with link-->
+                        <a href="https://www.autodetailing360.com/detail-contact" class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+                    </div>
+                </div>
+                <div class="html-blocks-pricing__row">
+                    <!--            Insert your image here-->
+                    <div class="html-blocks-pricing__item html-blocks-pricing__item_img"
+                         style="background-image: url(img/detailing-ceramic.jpg);"></div>
+                    <div class="html-blocks-pricing__item">
+                        <!--                Put heading of the block-->
+                        <h2 class="html-blocks-pricing__heading">360 Full Detail + Ceramic Pro® Interior &amp; Sport Packages</h2>
+                        <!--                Pricing buttons-->
+                        <div class="html-blocks-pricing__prices">
+                            <!--                    Pricing button with link-->
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>Cars</small>
+                                <strong>$599</strong>
+                            </a>
+                            <!--                    This button has selected class "html-blocks-pricing__price_selected" which makes background dark-->
+                            <a href="#!" class="html-blocks-pricing__price html-blocks-pricing__price_selected">
+                                <small>Trucks</small>
+                                <strong>$599</strong>
+                            </a>
+                            <a href="#!" class="html-blocks-pricing__price">
+                                <small>SUVs</small>
+                                <strong>$599</strong>
+                            </a>
+                        </div>
+                        <!--                Small heading, different font "font2" class-->
+                        <div class="html-blocks-pricing__subheading font2">TURNAROUND 1-2 DAYS</div>
+                        <div class="html-blocks-pricing__subheading font2">THIS PACKAGE INCLUDES</div>
+                        <!--                List with different font "font2"-->
+                        <ul class="html-blocks-pricing__ul font2">
+                            <li class="html-blocks-pricing__li">360 Full Detail</li>
+                            <li class="html-blocks-pricing__li">Ceramic Pro Sport Package</li>
+                            <li class="html-blocks-pricing__li">Ceramic Pro Interior Package</li>
+                            
+                        </ul>
+                        <!--                "Note" has class important which makes it red and bold-->
+                        <div class="html-blocks-pricing__text font2"> When it comes to great details and the best protection you can get short of a full ceramic coating or paint protection film, this is it! Your vehicle will receive our full 360 detail. The exterior will be treated with Ceramic Pro Sport. Rim faces will be coated with Ceramic Pro "Wheel &amp; Caliper" and the windshield and front windows will be treated with Ceramic Pro "Rain" glass protection. The interior will receive ceramic pro leather, plastic, and textile protection.</div>
+                        <!--                Button with link-->
+                        <a href="https://www.autodetailing360.com/detail-contact" class="html-blocks-pricing__btn btn btn_active"><span>Book Today</span></a>
+                    </div>
+                </div>
+                
+        </div>
+    </div>
+
+    <!--    HTML block products-->
+    <div class="html-blocks-products text-center">
+        <div class="html-blocks-products__container">
+            <!--            Logo of series of products with link-->
+            <a href="#!" class="html-blocks-products__image"><img src="img/Auto-Detailing-360-logo_final.png" alt="Auto Detailing 360"
+                                                                  loading="lazy"></a>
+            <!--            Heading-->
+            <h2 class="html-blocks-products__heading heading">Grand Junction's Choice for Professional Detailing</h2>
+            <!--            Small description-->
+            <p class="html-blocks-products__text">When it comes to getting your car detailed, truck detailed, or SUV detailed, Auto Detailing 360 is the obvious choice.&nbsp; Our convenient location is within walking distance of shopping and dining. Our detailing team is factory trained and certified and our entire staff is dedicated to making sure that you receive the services that are the best fit for your vehicle and your budget.&nbsp;&nbsp;</p>
+            <!--            Products holder-->
+            <div class="html-blocks-products__holder">
+                <!--                Product item-->
+                <div class="html-blocks-products__item">
+                    <!--                    Product Image-->
+                    <img src="img/detailing-interior-2.jpg" alt="Interior Detail" loading="lazy" class="html-blocks-products__picture">
+                    <!--                    Product title-->
+                    <h3 class="html-blocks-products__title">Best Interior Detail</h3>
+                    <!--                    Product description with different font. class "font 2"-->
+                  <p class="html-blocks-products__desc font2">Our Interior Detail and our 360 Detail both include a superior level of service for the interior of your car, truck, or SUV. On top of the typical equipment like a vacuum and a compressor, we use a high-end Mytee brand extractor.</p>
+                  <p class="html-blocks-products__desc font2">&nbsp;</p>
+                  <p class="html-blocks-products__desc font2">&nbsp;A Tornador filled with a high-end cleaner and UV protectant is used to remove hard-to-get dirt and dust. Leather is brushed with SONAX cleaner and conditioner that both remove existing stains and help to prevent new ones.&nbsp;</p>
+                  <p class="html-blocks-products__desc font2">&nbsp;</p>
+                  <p class="html-blocks-products__desc font2">A specialized Dashboard cleaner is used on most vinyl surfaces to clean and protect from UV. Stains in the fabric are treated, and the extractor is used while the headliner is cleaned by hand. Floor mats are power-washed, treated, scrubbed, and washed again.&nbsp;</p>
+                    <p class="html-blocks-products__desc font2">&nbsp;</p>
+                    <p class="html-blocks-products__desc font2">We also have WeatherTech mats available for purchase and installation. Your interior glass is cleaned with care to make sure we wipe the opposite direction from your exterior glass -- so if a spot was missed, we know where and fix it before we give you your keys. A lighter strength cleaner is applied to all screens and cockpit areas.</p>
+                </div>
+                <!--                Product item-->
+                <div class="html-blocks-products__item">
+                    <!--                    Product Image-->
+                    <img src="img/detailing-exterior-2.jpg" alt="exterior detail" loading="lazy" class="html-blocks-products__picture">
+                    <!--                    Product title-->
+                    <h3 class="html-blocks-products__title">Best Exterior Detail</h3>
+                    <!--                    Product description with different font. class "font 2"-->
+                  <p class="html-blocks-products__desc font2">Our Exterior detailing package includes the exterior services discussed in the 360 Detail. Both our 360 Detail package and our Exterior Detail package use industry-specific and highly specialized products. For example, SONAX Wheel Cleaner Plus or Beast will be used on your rims, a fallout remover over the entire vehicle if necessary. ActiFoam or equivalent for the wash process. Perfect Finish for the light polish, and a high-quality spray ceramic will be applied to finish it off. Our rinse water is purified using a RODI or CR Spotless system. Your glass is cleaned with a professional glass cleaner and specialized accessories to eliminate streaks and residue.</p>
+                  <p class="html-blocks-products__desc font2">&nbsp;</p>
+                    <p class="html-blocks-products__desc font2">We spend a lot of time outdoors here in the valley. We do everything in our power to make sure the chemicals we use are environmentally friendly. Furthermore, all wastewater goes through a multi-stage filtration system. Lastly, by using pressurized equipment, we reduce water consumption considerably while accomplishing better results</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
